@@ -1,0 +1,155 @@
+/*FONDO*/
+body {
+    /*background-color: aqua;*/
+  background-image: url("https://image.freepik.com/foto-gratis/uso-de-cemento-o-textura-de-hormigon-para-el-fondo_1205-2570.jpg");
+  font-family: 'Shrikhand', cursive;
+font-family: 'Playfair Display', serif;
+   background-image: url("https://professor-falken.com/wp-content/uploads/2017/05/ciudad-rascacielos-edificios-skyline-arquitectura-luces-Fondos-de-Pantalla-HD-professor-falken.com_.jpg");
+    background-size: 150%;
+}
+
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* AMBA*/
+header {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color:aqua;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Gracias por tu visita*/
+footer {
+    padding: 30px;
+    text-align: center;
+    color: AntiqueWhite;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+p span {
+  float: right;
+}
+/*enlaces*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+/*letras del enlace */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:black;
+
+}
+/*Buenos aires ciudad*/
+.amar {
+  background-color: yellow ;
+  color: black;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  background-align:center;
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 2px ghostwhite;
+  margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 15px;
+
+}
+    a{
+   background-color:transparent;
+    color:#333;
+    padding: 2px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    }
+  
